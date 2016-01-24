@@ -219,31 +219,42 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "leave_ban"
+    "leave_ban",
+    "server",
+    "robot",
+    "plugins",
+    "moderation",
+    "membermanager",
+    "map",
+    "info",
+    "id",
+    "help",
+    "hello",
+    "gps",
+    "gpmanager",
+    "googleimage",
+    "google",
+    "dictionary",
+    "chat",
+    "calculator",
+    "autoleave"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {37194141,174665816,175531746,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[The Anti Spammer Zeus V2
 
-https://github.com/SEEDTEAM/TeleSeed
+مديران ربات:
+@Larnog
+@Ananymous0
+@Redteam_02_00
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+تشکر ويژه از:
+@Blackwolf_admin
+@Amincmp
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+خبرنامه ربات:
+@Zeus_ch
 ]],
     help_text_realm = [[
 Realm Commands:
