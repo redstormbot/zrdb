@@ -229,7 +229,6 @@ function create_config( )
     "info",
     "id",
     "help",
-    "hello",
     "gps",
     "gpmanager",
     "googleimage",
