@@ -237,7 +237,11 @@ function create_config( )
     "dictionary",
     "chat",
     "calculator",
-    "autoleave"
+    "autoleave",
+    "welcome",
+    "antilink",
+    "block",
+    "antitag"
     },
     sudo_users = {37194141,174665816,175531746,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
