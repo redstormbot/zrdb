@@ -1,25 +1,26 @@
 do
 
 function run(msg, matches)
-  return 'Umbrella Telegram Bot v1.5'.. [[ 
-  
-  Website:
-  http://Umbrella.shayan-soft.IR
-  Antispam Bot: @UmbrellaTG
-  Channel: @UmbrellaTeam
-  Sudo (Admin): @shayansoft
-  
-  Powered by:
-  shayan soft Co. Group
-  Engineer Shayan Ahmadi
-  http://shayan-soft.IR]]
+  return 'The Anti Spammer Zeus V2'.. [[ 
+
+مديران ربات:
+@Larnog
+@Ananymous0
+@Redteam_02_00
+
+تشکر ويژه از:
+@Blackwolf_admin
+@Amincmp
+
+خبرنامه ربات:
+@Zeus_ch ]]
 end
 
 return {
   description = "Robot and Creator About", 
-  usage = "/ver : robot info",
+  usage = "/version : robot info",
   patterns = {
-    "^[!/]ver$"
+    "^[!/]version$"
   }, 
   run = run 
 }
