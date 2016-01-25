@@ -358,6 +358,9 @@ Will kick user
 !about
 Group description
 
+!zeus
+Robot admins
+
 !setphoto
 Set and locks group photo
 
