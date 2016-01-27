@@ -237,22 +237,24 @@ function create_config( )
     "block",
     "antitag"
     },
-    sudo_users = {37194141,174665816,175531746,0,tonumber(our_id)},--Sudo users
+    sudo_users = {139837032,127244339,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[The Anti Spammer Zeus V2
+    about_text = [[The Anti Spammer redstorm V2
 
 مديران ربات:
-@Larnog
-@Ananymous0
-@Redteam_02_00
+@djmjcj
+@lnthacker
+@best_boy
+@pouya_x_boy
+
 
 تشکر ويژه از:
-@Blackwolf_admin
-@Amincmp
+@lnthacker
+@pouya_x_boy
 
 خبرنامه ربات:
-@Zeus_ch
+@redstormch
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -327,6 +329,8 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+our chanell      @redstormch
+ما در روبات گپ مجان میدیم ولی شرطش اینه که امار کانالو بالا ببرید
 ]],
     help_text = [[
 Commands list :
@@ -436,7 +440,8 @@ will return group ban list
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only owner can use res,setowner,promote,demote and log commands
-
+our chanell      @redstormch
+ما در روبات گپ مجان میدیم ولی شرطش اینه که امار کانالو بالا ببرید
 ]]
   }
   serialize_to_file(config, './data/config.lua')
