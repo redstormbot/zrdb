@@ -236,6 +236,8 @@ function create_config( )
     "antilink",
     "block",
     "antitag"
+    "antifosh"
+    "info"
     },
     sudo_users = {139837032,127244339,tonumber(our_id)},--Sudo users
     disabled_channels = {},
