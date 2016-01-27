@@ -17,48 +17,44 @@ end
 if msg.text == "salam" then
 	return "va aleykol asalam"
 end
-if msg.text == "سلام" then
-	return "علیک سلام عزیزم"
-end
-if msg.text == "larnog" then
-	return "با بابایی من چیکار داری؟"
-end
-if msg.text == "Zeus" then
-	return "جان؟"
-end
-if msg.text == "zeus" then
-	return "Yes?"
-end
-if msg.text == "؟" then
-	return "زیاد سوال میکنیا😡"
-end
-if msg.text == "bot" then
+ if msg.text == "bot" then
 	return "hum?"
 end
 if msg.text == "Bot" then
 	return "Huuuum?"
 end
 if msg.text == "?" then
-	return "زیاد سوال نپرس داداشم 😊"
+	return "Hum??"
 end
-if msg.text == "بای" then
-	return "به سلامت"
+if msg.text == "Bye" then
+	return "Babay"
 end
-if msg.text == "bye" then
-	return "Bye Bye"
+if msg.text == "what's your name?" then
+	return "My name is RedStorm"
 end
+if msg.text == "کس نگو" then
+return "کس اگه گفتنی ننت خواننده بود🎅"
 end
-
+if msg.text == "سلام" then
+return "سلام رفیق"
+end
+if msg.text == "ایلیا" then
+return "با بابا جونم چیکار داری"
+end
+if msg.text == "پویا" then
+return "با ناپدریم چیکار داری؟"
+end
 return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[س]لام$",
-		"^larnog$",
+		"^what's your name?$,
+		"^کس نگو",
 		"^[Bb]ot$",
-		"^[Zz]eus$",
+		"^پویا$",
+		"^ایلیا$",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
